@@ -22,7 +22,7 @@
 				<div class="center clearfix">
 					<a href="#" id="logo"><div class="logo left"></div></a>
 					<div class="social right">
-						<a href="#" class="social-icon fb">&nbsp;</a>
+						<a href="#openModal" class="social-icon fb">&nbsp;</a>
 						<a href="#" class="social-icon tw">&nbsp;</a>
 						<a href="#" class="social-icon dr">&nbsp;</a>
 						<a href="#" class="social-icon mail">&nbsp;</a>
@@ -41,12 +41,12 @@
 							><li><a href="#services">portfolio</a></li
 							><li><a href="#twit">faq</a></li
 							><li><a href="#projects">blog</a></li
-							><li><a href="#footer">contacts</a></li>
+							><li><a href="#openModal" class="btn">contact us</a></li>
 						</ul>
 					</div>
 					<form class="right">
 					  <input type="search" name="search">
-					  <button type="submit" value="Search">Search</button>
+					  <button class="button" type="submit" value="Search">Search</button>
 					</form>
 				</div>
 				<div class="dash"><span></span></div>
@@ -149,7 +149,7 @@
 				<br><br>
 				If so, please don't hesitate to get in touch with us!
 				We look forward to hearing from you!</p>
-				<button>Contact us Today</button>
+				<button class="button">Contact us Today</button>
 			</div>
 			<div class="foot-item left">
 				<span class="separate"></span>
@@ -188,6 +188,18 @@
 		Copyright © 2011 The Predators Studio. All Rights Reserved.<br>
 		Custom HTML5 Theme Design and Development by anotherwebstorm</div>
 	</footer>
+	<!--Popup-->
+	 <div id="openModal">
+	 	<div class="center">
+	 		<form action="">
+	 			<input type="text" value="Name"><br>
+	 			<input type="text" value="Email"><br>
+	 			<textarea name="message" cols="30" rows="10"></textarea><br>
+	 			<button class="button" type="submit">Submit</button><br>
+	 		</form>
+	 		<a href="#close" title="Close" class="close">X</a>
+	 	</div>
+	 </div>
 	<!--Jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<!--Scroll-->

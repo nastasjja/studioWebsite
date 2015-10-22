@@ -1,5 +1,5 @@
 $(window).ready(function(){
-    $("#menu, .home-link").on("click","a", function (event) {
+    $("#menu, .home-link").on("click","a:not(li:last-child>a)", function (event) {
         event.preventDefault();
 
         var id = $(this).attr('href'),
